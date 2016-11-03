@@ -1,0 +1,69 @@
+/* 
+    Created on : 19/10/2016, 21:18:09
+    Author     : Diego Massaneiro
+*/
+
+table {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    border-collapse: collapse;
+    width:80%;
+        
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #333;
+    color: white;
+   
+}
+.botaoEditar{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.botaoExcluir{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.botaoAdd{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 9px 190px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top:10%;
+    text-align: center;
+    left: 30%;
+
+}
